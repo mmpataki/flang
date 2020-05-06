@@ -1,0 +1,8 @@
+[A-Za-z.]*==>IDENT
+(==>OP
+)==>CP
+,==>COMMA
+"*"==>STRING
+[0-9]*==>NUM
+ ==>IGNORE
+	==>IGNORE

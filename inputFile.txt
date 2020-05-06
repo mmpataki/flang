@@ -1,0 +1,4 @@
+INCLUDE(IO)
+INCLUDE(MRSIQ)
+ASSIGN(CONN, MRSIQ.OPENPROJ("Domain_EDC", "Model_Repository_Service", "Administrator", "Administrator", "Native", "tools", "DOMAINGROUPPRJ"))
+IO.PRINT(MRSIQ.SEARCH(CONN, "com.infa.products.ldm.persistence.config.models.persist.impl.LDMResourceConfigImpl", "Oracle"))
